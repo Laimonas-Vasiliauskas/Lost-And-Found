@@ -247,3 +247,24 @@ input {
     border-radius: 40px;
     width: 60%;
 }
+.profile {
+    background-color: white;
+    font-size: larger;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+    border: #f97316 solid 1px;
+    border-radius: 40px;
+    width: 60%;
+}
+.profile-ads {
+    background-color: white;
+    font-size: larger;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+    border: #f97316 solid 1px;
+    border-radius: 40px;
+    width: 60%;
+    
+}
