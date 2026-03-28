@@ -4,9 +4,9 @@ document.getElementById("register-btn").addEventListener("click", () => {
 document.getElementById("login-btn").addEventListener("click", () => {
   window.location.href = "login.html";
 });
-document.getElementById("post-ad-btn").addEventListener("click", () => {
-  window.location.href = "post-ad.html";
+document.getElementById("create-post-btn").addEventListener("click", () => {
+  window.location.href = "create-post.html";
 });
-document.getElementById("home-btn").addEventListener("click", () => {
+document.getElementById("category-item").addEventListener("click", () => {
   window.location.href = "index.html";
 });

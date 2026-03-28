@@ -49,23 +49,38 @@ button{
     padding: 10px 20px;
     cursor: pointer;
 }
-.btn:hover {
+.btn:hover, #login-btn:hover, #register-btn:hover {
     transform: translateY(-2px) scale(1.08);
 }
-.btn:active {
+.btn:active, #login-btn:active, #register-btn:active {
     transform: scale(0.96);
 }
-#register-btn {
-    background-color: white;
-    color: #f97316;
-    border: 1px solid #f97316;
-}
-#register-form {
+#register-form, #login-form {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     margin: 50px auto;
     width: 60%;
+}
+#register-form input,
+#login-form input,
+#form-register-btn,
+#form-login-btn {
+    width: 260px;
+    box-sizing: border-box;
+}
+#form-register-btn,
+#form-login-btn {
+    background-color: white;
+    color: #f97316;
+    border: 1px solid #f97316;
+    padding: 10px;
+}
+input {
+    padding: 10px;
+    border: 1px solid lightsalmon;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }
 input {
     padding: 10px;
