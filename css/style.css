@@ -55,35 +55,87 @@ button{
 .btn:active {
     transform: scale(0.96);
 }
-.hero{
+#register-btn {
+    background-color: white;
+    color: #f97316;
+    border: 1px solid #f97316;
+}
+#register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 60%;
+}
+input {
+    padding: 10px;
+    border: 1px solid lightsalmon;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.hero {
     background-color: #f97316;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 50px auto;
-    padding: 50px;
-    border: #f97316 solid 1px;
-    border-radius: 40px;
-    width: 60%;
-    font-size: larger;
+    border: 1px solid #f97316;
+    border-radius: 30px;
 }
-.search-container{
+.hero-home {
+    background-color: #f97316;
+    color: white;
+    text-align: center;
+    margin: 45px auto;
+    padding: 40px;
+    border-radius: 35px;
+    width: 55%;
+}
+.hero-form {
+    margin: 60px auto;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+.search-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 30px auto;
-    width: 60%;
+    justify-content: center;
+    gap: 12px;
+    margin: 30px auto 0;
+    width: fit-content;
+    max-width: 100%;
     background-color: lightsalmon;
     padding: 20px;
     border: 1px solid #f97316;
     border-radius: 40px;
+    flex-wrap: wrap;
 }
-select, input {
-    padding: 10px;
-    border: 1px solid lightsalmon;
-    border-radius: 20px;
+.search-container input,
+.search-container select,
+.search-container button {
+    height: 44px;
+    padding: 0 16px;
+    margin: 0;
+    border-radius: 22px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.search-container input {
+    width: 180px;
+    border: none;
+}
+.search-container select {
+    width: 200px;
+    border: none;
+}
+.search-container button {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    white-space: nowrap;
 }
 .category-list {
     display: flex;

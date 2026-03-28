@@ -1,13 +1,37 @@
-<form id="register-form">
-
-<h2>Register</h2>
-
-<input type="text" placeholder="Name" id="name" required>
-
-<input type="email" placeholder="Email" id="email" required>
-
-<input type="password" placeholder="Password" id="password" required>
-
-<button type="submit">Register</button>
-
-</form>
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <title>Lost & Found</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <nav>
+    <div>
+      <h1 class="logo">Lost & Found</h1>
+    </div>
+    <div>
+      <button class="btn" id="login-btn">Prisijungti</button>
+    </div>
+  </nav>
+</header>
+<body>
+  <div class="hero hero-form">
+    <form id="register-form">
+        <div>
+            <h2>Registracija</h2>
+            <p>Vardas:</p>
+            <input type="text" placeholder="Vardas" id="name" required><br>
+            <p>El. paštas:</p>
+            <input type="email" placeholder="El. paštas" id="email" required><br>
+            <p>Slaptažodis:</p>
+            <input type="password" placeholder="Slaptažodis" id="password" required><br>
+            <p>Patvirtinkite slaptažodį:</p>
+            <input type="password" placeholder="Slaptažodis" id="confirm-password" required><br>
+            <button type="button" id="register-btn">Registruotis</button>
+        </div>
+    </form>
+  </div>
+</body>
+<script src="js/main.js"></script>
+</html>
